@@ -17,13 +17,8 @@
 		55175C2615D5DD2100AEB6AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55175C0715D5DD2100AEB6AA /* Foundation.framework */; };
 		55175C2E15D5DD2100AEB6AA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 55175C2C15D5DD2100AEB6AA /* InfoPlist.strings */; };
 		55175C3115D5DD2100AEB6AA /* HelloWorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55175C3015D5DD2100AEB6AA /* HelloWorldTests.m */; };
-		5528546F15D6ED0A00EA8F71 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5528546B15D6ED0A00EA8F71 /* main.m */; };
-		5528547115D6ED4700EA8F71 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55175C1715D5DD2100AEB6AA /* MainStoryboard.storyboard */; };
-		5528547215D6EE0200EA8F71 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5528546B15D6ED0A00EA8F71 /* main.m */; };
-		5528547415D6F29C00EA8F71 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55175C1715D5DD2100AEB6AA /* MainStoryboard.storyboard */; };
 		5528548615D6F2E900EA8F71 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5528547B15D6F2E800EA8F71 /* InfoPlist.strings */; };
 		5528548715D6F2E900EA8F71 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5528547D15D6F2E800EA8F71 /* MainStoryboard.storyboard */; };
-		5528548815D6F2E900EA8F71 /* HelloWorld-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5528547F15D6F2E800EA8F71 /* HelloWorld-Info.plist */; };
 		5528548915D6F2E900EA8F71 /* HelloWorldAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5528548215D6F2E800EA8F71 /* HelloWorldAppDelegate.m */; };
 		5528548A15D6F2E900EA8F71 /* HelloWorldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5528548415D6F2E800EA8F71 /* HelloWorldViewController.m */; };
 		5528548B15D6F2E900EA8F71 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5528548515D6F2E800EA8F71 /* main.m */; };
@@ -52,7 +47,6 @@
 		55175C2D15D5DD2100AEB6AA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		55175C2F15D5DD2100AEB6AA /* HelloWorldTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldTests.h; sourceTree = "<group>"; };
 		55175C3015D5DD2100AEB6AA /* HelloWorldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldTests.m; sourceTree = "<group>"; };
-		5528546B15D6ED0A00EA8F71 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "/Users/felipe/Data/Projects/ios-hello-world/HelloWorld/HelloWorld/main.m"; sourceTree = "<absolute>"; };
 		5528547C15D6F2E800EA8F71 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
 		5528547E15D6F2E800EA8F71 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
 		5528547F15D6F2E800EA8F71 /* HelloWorld-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "HelloWorld-Info.plist"; sourceTree = "<group>"; };
@@ -245,11 +239,8 @@
 			files = (
 				55175C1015D5DD2100AEB6AA /* InfoPlist.strings in Resources */,
 				55175C1915D5DD2100AEB6AA /* MainStoryboard.storyboard in Resources */,
-				5528547115D6ED4700EA8F71 /* MainStoryboard.storyboard in Resources */,
-				5528547415D6F29C00EA8F71 /* MainStoryboard.storyboard in Resources */,
 				5528548615D6F2E900EA8F71 /* InfoPlist.strings in Resources */,
 				5528548715D6F2E900EA8F71 /* MainStoryboard.storyboard in Resources */,
-				5528548815D6F2E900EA8F71 /* HelloWorld-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,8 +275,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5528546F15D6ED0A00EA8F71 /* main.m in Sources */,
-				5528547215D6EE0200EA8F71 /* main.m in Sources */,
 				5528548915D6F2E900EA8F71 /* HelloWorldAppDelegate.m in Sources */,
 				5528548A15D6F2E900EA8F71 /* HelloWorldViewController.m in Sources */,
 				5528548B15D6F2E900EA8F71 /* main.m in Sources */,
